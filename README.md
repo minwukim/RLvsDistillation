@@ -79,7 +79,7 @@ accelerate launch \
 
 💡 **Note:**
 
-* `<NUM_PROCESSES>` should be set to the number of available CPU cores **minus one (–1)**.
+* `<NUM_PROCESSES>` should be set to the number of available GPUs **minus one (–1)**.
   This is because **VLLM** internally uses one process for fast batched model inference, and the remaining processes will be used for parallel reward evaluation.
 * Example: If your machine has 16 logical cores, use `--num_processes 15`.
 
