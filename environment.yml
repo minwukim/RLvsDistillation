@@ -1,4 +1,4 @@
-name: /home/VRL/env
+name: env
 channels:
   - pytorch
   - nvidia
@@ -293,7 +293,7 @@ dependencies:
       - tqdm==4.67.1
       - transformers==4.49.0
       - triton==3.1.0
-      - trl==0.16.0.dev0
+      - trl==0.16.0
       - tzdata==2025.1
       - urllib3==2.3.0
       - uvicorn==0.34.0
